@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Santiago Trujillo — Portfolio</title>
+<meta name="description" content="Portfolio de Santiago Trujillo, artiste digital — portraits, personnages et mondes oniriques peints en numérique.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Work+Sans:wght@300;400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <a href="#top" class="nav-name">Santiago <span>Trujillo</span></a>
+  <button class="nav-toggle" aria-label="Ouvrir le menu">☰</button>
+  <ul class="nav-links">
+    <li><a href="#portraits">Portraits</a></li>
+    <li><a href="#personnages">Personnages</a></li>
+    <li><a href="#animaux">Animaux</a></li>
+    <li><a href="#pixel">Pixel Art</a></li>
+    <li><a href="#a-propos">À propos</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<header class="hero" id="top">
+  <div class="hero-image" style="background-image:url('images/personnage-07-etoile-filante.jpg')"></div>
+  <canvas id="starfield"></canvas>
+  <div class="hero-scrim"></div>
+  <div class="hero-content">
+    <span class="hero-eyebrow">Artiste digital · Portraits &amp; illustration narrative</span>
+    <h1 class="hero-title">Santiago<br><em>Trujillo</em></h1>
+    <p class="hero-tagline">Je peins des visages qui racontent une histoire — entre lumière dramatique, mondes oniriques et compagnons à quatre pattes.</p>
+    <a href="#portraits" class="hero-cta">Voir le travail ↓</a>
+  </div>
+  <div class="scroll-cue">Défiler</div>
+</header>
+
+<main>
+
+  <section class="section" id="portraits">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Série 01</span>
+        <h2 class="section-title">Portraits</h2>
+      </div>
+      <span class="section-count">08 pièces</span>
+    </div>
+    <div class="masonry">
+      <figure class="piece"><img src="images/portrait-01-visage.jpg" alt="Portrait peint, visage éclairé en lumière rasante" loading="lazy"><figcaption class="piece-caption"><div class="p-title">Lumière rasante</div><div class="p-tag">Portrait</div></figcaption></figure>
+      <figure class="piece"><img src="images/portrait-02-chat.jpg" alt="Jeune femme tenant un chat gris, lumière chaude" loading="lazy"><figcaption class="piece-caption"><div class="p-title">Compagnie silencieuse</div><div class="p-tag">Portrait</div></figcaption></figure>
+      <figure class="piece"><img src="images/portrait-03-homme-profil.jpg" alt="Portrait d'homme de profil, cheveux longs" loading="lazy"><figcaption class="piece-caption"><div class="p-title">Profil, cheveux au vent</div><div class="p-tag">Portrait</div></figcaption></figure>
+      <figure class="piece"><img src="images/portrait-04-nb-larme.jpg" alt="Portrait en noir et blanc d'une femme au regard triste" loading="lazy"><figcaption class="piece-caption"><div class="p-title">Une larme, sans un mot</div><div class="p-tag">Portrait</div></figcaption></figure>
+      <figure class="piece"><img src="images/portrait-05-cigarette.jpg" alt="Jeune femme assise sur un escalier, cigarette à la main" loading="lazy"><figcaption class="piece-caption"><div class="p-title">Pause sur l'escalier</div><div class="p-tag">Portrait</div></figcaption></figure>
+      <figure class="piece"><img src="images/portrait-06-nonne.jpg" alt="Portrait humoristique d'une religieuse avec lunettes de soleil" loading="lazy"><figcaption class="piece-caption"><div class="p-title">Sœur incognito</div><div class="p-tag">Portrait</div></figcaption></figure>
+      <figure class="piece"><img src="images/portrait-07-coucher-soleil.jpg" alt="Portrait de femme au regard vers l'horizon, tons dorés" loading="lazy"><figcaption class="piece-caption"><div class="p-title">Regard vers l'horizon</div><div class="p-tag">Portrait</div></figcaption></figure>
+      <figure class="piece"><img src="images/portrait-08-carre.jpg" alt="Portrait de femme aux cheveux courts et bouclés" loading="lazy"><figcaption class="piece-caption"><div class="p-title">Un sourire discret</div><div class="p-tag">Portrait</div></figcaption></figure>
+    </div>
+  </section>
+
+  <section class="section" id="personnages">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Série 02</span>
+        <h2 class="section-title">Personnages &amp; Fantaisie</h2>
+      </div>
+      <span class="section-count">08 pièces</span>
+    </div>
+    <div class="masonry">
+      <figure class="piece"><img src="images/personnage-01-capuche.jpg" alt="Personnage encapuchonné aux yeux verts, fond bleu nuit" loading="lazy"><figcaption class="piece-caption"><div class="p-title">Sous la capuche</div><div class="p-tag">Personnage</div></figcaption></figure>
+      <figure class="piece"><img src="images/personnage-02-flamme.jpg" alt="Femme entourée d'un cercle de flammes" loading="lazy"><figcaption class="piece-caption"><div class="p-title">Cercle de feu</div><div class="p-tag">Personnage</div></figcaption></figure>
+      <figure class="piece"><img src="images/personnage-03-guerriere.jpg" alt="Personnage aux tatouages bleus et bijoux dorés" loading="lazy"><figcaption class="piece-caption"><div class="p-title">Tatouages et acier</div><div class="p-tag">Personnage</div></figcaption></figure>
+      <figure class="piece"><img src="images/personnage-04-punk-rose.jpg" alt="Portrait stylisé aux tons roses et bleus, montre en pendentif" loading="lazy"><figcaption class="piece-caption"><div class="p-title">Néon et minuit</div><div class="p-tag">Personnage</div></figcaption></figure>
+      <figure class="piece"><img src="images/personnage-05-sous-eau.jpg" alt="Visage sous l'eau, reflets de lumière" loading="lazy"><figcaption class="piece-caption"><div class="p-title">Immersion</div><div class="p-tag">Personnage</div></figcaption></figure>
+      <figure class="piece"><img src="images/personnage-06-cascade.jpg" alt="Silhouette près d'une cascade de glace, nuit étoilée" loading="lazy"><figcaption class="piece-caption"><div class="p-title">La cascade de glace</div><div class="p-tag">Personnage</div></figcaption></figure>
+      <figure class="piece"><img src="images/personnage-07-etoile-filante.jpg" alt="Personnage endormi sous une étoile filante, capuche en forme d'oreilles de chat" loading="lazy"><figcaption class="piece-caption"><div class="p-title">Étoile filante</div><div class="p-tag">Personnage</div></figcaption></figure>
+      <figure class="piece"><img src="images/personnage-08-cheveux-bleus.jpg" alt="Personnage aux cheveux bleus et regard perçant" loading="lazy"><figcaption class="piece-caption"><div class="p-title">Lueur bleue</div><div class="p-tag">Personnage</div></figcaption></figure>
+    </div>
+  </section>
+
+  <section class="section" id="animaux">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Série 03</span>
+        <h2 class="section-title">Animaux</h2>
+      </div>
+      <span class="section-count">02 pièces</span>
+    </div>
+    <div class="masonry">
+      <figure class="piece"><img src="images/animaux-01-chats-lunettes.jpg" alt="Deux chats portant des lunettes de soleil" loading="lazy"><figcaption class="piece-caption"><div class="p-title">Duo incognito</div><div class="p-tag">Animaux</div></figcaption></figure>
+      <figure class="piece"><img src="images/animaux-02-caneton.jpg" alt="Caneton avec une fleur orange sur la tête" loading="lazy"><figcaption class="piece-caption"><div class="p-title">Petit caneton, grande fleur</div><div class="p-tag">Animaux</div></figcaption></figure>
+    </div>
+  </section>
+
+  <section class="section" id="pixel">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">Série 04</span>
+        <h2 class="section-title">Pixel Art</h2>
+      </div>
+      <span class="section-count">02 pièces</span>
+    </div>
+    <div class="masonry">
+      <figure class="piece"><img src="images/pixel-01-chat-fenetre.jpg" alt="Chat en pixel art regardant une nuit étoilée par la fenêtre" loading="lazy"><figcaption class="piece-caption"><div class="p-title">Veille étoilée</div><div class="p-tag">Pixel Art</div></figcaption></figure>
+      <figure class="piece"><img src="images/pixel-02-homme-barbe.jpg" alt="Portrait d'homme barbu en pixel art" loading="lazy"><figcaption class="piece-caption"><div class="p-title">Portrait 8-bit</div><div class="p-tag">Pixel Art</div></figcaption></figure>
+    </div>
+  </section>
+
+  <section class="section" id="a-propos">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">À propos</span>
+        <h2 class="section-title">L'artiste</h2>
+      </div>
+    </div>
+    <div class="about">
+      <div class="about-text">
+        <p>Bonjour et bienvenue dans mon portfolio ! Je suis Santiago Trujillo, un artiste digital passionné avec un amour particulier pour le dessin et la peinture numérique.</p>
+        <p>À travers mes illustrations, je cherche à capturer l'essence et la personnalité de chaque sujet, en me concentrant particulièrement sur des portraits qui racontent une histoire. L'art a toujours été ma forme d'expression la plus authentique : j'aime explorer différents styles et techniques, du portrait peint au pixel art, en passant par des mondes plus oniriques et fantastiques.</p>
+        <p>Chaque pièce est un voyage personnel — une occasion de me connecter avec celui ou celle qui regarde, et de partager un fragment de mon univers. Merci de votre visite !</p>
+      </div>
+      <div class="about-portrait">
+        <img src="images/portrait-08-carre.jpg" alt="Illustration représentative du style de Santiago Trujillo" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <span class="eyebrow">Contact</span>
+    <h2 class="section-title">Restons en contact</h2>
+    <p>Pour une collaboration, une commande ou simplement échanger sur une pièce, retrouvez-moi ici :</p>
+    <div class="social-row">
+      <a class="social-link" href="https://www.instagram.com/ago_h30?igsh=YWU1cTY3d2Vtejdk" target="_blank" rel="noopener">Instagram ↗</a>
+      <a class="social-link" href="https://www.facebook.com/profile.php?id=61569991030442" target="_blank" rel="noopener">Facebook ↗</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <span>© <span id="year"></span> Santiago Trujillo — Tous droits réservés.</span>
+  <span>Portfolio codé à la main.</span>
+</footer>
+
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" aria-label="Fermer">✕</button>
+  <img src="" alt="">
+  <div class="lightbox-caption"></div>
+</div>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="script.js"></script>
+</body>
+</html>
